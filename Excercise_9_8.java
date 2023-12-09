@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.excercise_9_8;
 
-/**
- *
- * @author user
- */
 public class Excercise_9_8 {
     
     public static void main(String[] args) {
