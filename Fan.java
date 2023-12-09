@@ -1,9 +1,5 @@
 package com.mycompany.excercise_9_8;
 
-/**
- *
- * @author user
- */
 public class Fan {
     // Three constants named SLOW, MEDIUM, and FAST with the values 1, 2, and 3 to denote the fan speed.
     final int SLOW = 1;
