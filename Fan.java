@@ -24,8 +24,6 @@ public class Fan {
         color = "blue";
     }
     
-
-
 // Accessors and mutators 
     public int getSpeed() {
         return speed;
@@ -68,18 +66,7 @@ public class Fan {
         }
         // when fan is off it displays the color, radius, and lets the user know the fan is off
         else{
-             return "Fan 2: " + "Color: " + color + ", Radius: " + radius + ", fan is off";
-            
-            
-            
-        }
-        
-        
-    }
-    
-    
-    
-    
-    
-    
+             return "Fan 2: " + "Color: " + color + ", Radius: " + radius + ", fan is off";   
+        }   
+    }    
 }
