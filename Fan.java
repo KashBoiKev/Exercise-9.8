@@ -57,12 +57,12 @@ public class Fan {
     public String toString() {
          // When fan is on it display the speed , color, and radius
         if (on == true){
-            return "Fan 1: " + "Speed: " + (speed == 1 ? "SLOW" : speed == 2 ? "MEDIUM" : "FAST") +
+            return "Fan : " + "Speed: " + (speed == 1 ? "SLOW" : speed == 2 ? "MEDIUM" : "FAST") +
                     ", Color: " + color + ", Radius: " + radius;
         }
         // when fan is off it displays the color, radius, and lets the user know the fan is off
         else{
-             return "Fan 2: " + "Color: " + color + ", Radius: " + radius + ", fan is off";   
+             return "Fan : " + "Color: " + color + ", Radius: " + radius + ", fan is off";   
         }   
     }    
 }
